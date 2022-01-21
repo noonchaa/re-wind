@@ -1,10 +1,10 @@
 {
-  "name": "re-wind",
+  "name": "noonchaa-re-wind",
   "version": "1.0.0",
   "description": "React component library with tailwindCSS",
-  "author": "",
+  "author": "noonchaa",
   "license": "MIT",
-  "repository": "/re-wind",
+  "repository": "/noonchaa-re-wind",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
