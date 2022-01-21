@@ -4,7 +4,11 @@
   "description": "React component library with tailwindCSS",
   "author": "noonchaa",
   "license": "MIT",
-  "repository": "/re-wind",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noonchaa/re-wind.git"
+  },
+  "homepage": "https://noonchaa.github.io/re-wind/",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
