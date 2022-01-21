@@ -1,10 +1,10 @@
 import React from 'react'
 
-import { ExampleComponent } from 're-wind'
+import {Button} from 're-wind'
 import 're-wind/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <Button>This is new button</Button>
 }
 
 export default App
