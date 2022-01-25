@@ -10,13 +10,16 @@
 npm install --save noonchaa-re-wind
 ```
 
+## peerDependencies
+> React ^16.0.0
+
 ## Usage
 
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 're-wind'
-import 're-wind/dist/index.css'
+import MyComponent from 'noonchaa-re-wind'
+import 'noonchaa-re-wind/dist/index.css'
 
 class Example extends Component {
   render() {
