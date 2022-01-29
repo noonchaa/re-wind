@@ -4,7 +4,6 @@ import {FaMoon, FaSun} from 'react-icons/fa'
 
 const Toggle = () => {
     const [colorTheme, setTheme] = Dark()
-    console.log(colorTheme)
     return(
         <div className="rounded-full h-5 w-8 cursor-pointer z-50" onClick={()=>setTheme(colorTheme)}>
             {colorTheme === 'dark' ?
