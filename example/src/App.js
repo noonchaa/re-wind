@@ -1,15 +1,32 @@
 import React from 'react'
 import 're-wind/dist/index.css'
-import { Button, Navbar, NavLink } from 're-wind'
+import { Button, Container, Layout, Navbar, NavLink, Toggle } from 're-wind'
 
 const App = () => {
   return (
-    <div>
+    <Layout>
       <Navbar brand='Re-Wind'>
-        <NavLink to='#test' text='test'/>
+        <NavLink>
+          <a href='/'>home</a>
+        </NavLink>
+        <NavLink red>
+          <a href='/'>home</a>
+        </NavLink>
+        <NavLink blue>
+          <a href='/'>home</a>
+        </NavLink>
+        <NavLink green>
+          <a href='/'>home</a>
+        </NavLink>
+        <NavLink yellow>
+          <a href='/'>home</a>
+        </NavLink>
       </Navbar>
-      <Button>This is a button</Button>
-    </div>
+      <Container>
+        <Button>This is a button</Button>
+        <Toggle/>
+      </Container>
+    </Layout>
   )
 }
 
