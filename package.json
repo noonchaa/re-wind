@@ -25,12 +25,19 @@
     "test:unit": "cross-env CI=1 react-scripts test --env=jsdom",
     "test:watch": "react-scripts test --env=jsdom",
     "predeploy": "cd example && npm install && npm run build",
-    "deploy": "gh-pages -d example/build"
+    "deploy": "gh-pages -d example/build",
+    "test:jest": "jest --verbose --watch --coverage"
   },
   "peerDependencies": {
     "react": "^17.0.0"
   },
+  "jest":{
+    "setupFilesAfterEnv": ["<rootDir>/jest-setup.js"]
+  },
   "devDependencies": {
+    "@babel/preset-react": "^7.16.7",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.2",
     "autoprefixer": "^9.8.8",
     "babel-eslint": "^10.0.3",
     "cross-env": "^7.0.2",
